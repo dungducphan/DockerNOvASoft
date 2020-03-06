@@ -8,4 +8,4 @@ fi
 xhost + $IP
 
 # Run
-docker run --privileged --rm -it -e DISPLAY=$IP:0 --mount type=bind,src=`pwd`/data,dst=/home dungphan90/novadev_cvmfs:slf6
+docker run --privileged --rm -it -e DISPLAY=$IP:0 --mount type=bind,src=`pwd`/workspace,dst=/home dungphan90/novadev_cvmfs:slf6
